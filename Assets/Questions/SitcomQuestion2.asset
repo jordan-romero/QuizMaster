@@ -10,6 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0b14cd945d8b48fbb4df3a40b02eff0, type: 3}
-  m_Name: SitcomQuestion3
+  m_Name: SitcomQuestion2
   m_EditorClassIdentifier: 
-  question: Enter new question here
+  question: In "Seinfeld," what is the name of the fictional holiday that George
+    Costanza's father, Frank, created, featuring a bare aluminum pole instead of
+    a Christmas tree?
+  answers:
+  - Festivus
+  - Kringlefest
+  - Yuleapalooza
+  - Airing of Grievances
+  correctAnswerIndex: 0
