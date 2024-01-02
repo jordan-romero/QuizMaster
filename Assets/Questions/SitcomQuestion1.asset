@@ -16,8 +16,8 @@ MonoBehaviour:
     Mifflin employees participate in various outdoor games and activities, often
     leading to humorous competitions?
   answers:
-  - Dunderlympics
-  - Scranton Field Day
   - Schrute Games
   - Office Olympics
-  correctAnswerIndex: 3
+  - Dunderlympics
+  - Scranton Field Day
+  correctAnswerIndex: 1
