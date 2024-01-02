@@ -5,25 +5,27 @@ using UnityEngine;
 
 
 [CreateAssetMenu(fileName = "QuizQuestion", menuName = "QuizQuestion")]
-public class QuestionSO : ScriptableObject {
-
-    [TextArea(2, 6)]
-    [SerializeField] string question = "Enter new question here";
-
+public class QuestionSO : ScriptableObject
+{
+    [TextArea(2,6)]
+    [SerializeField] string question = "Enter new question text here";
     [SerializeField] string[] answers = new string[4];
-
     [SerializeField] int correctAnswerIndex;
 
-    public string GetQuestion() {
+    public string GetQuestion()
+    {
         return question;
     }
 
-    public string GetAnswer(int index) {
+    public string GetAnswer(int index)
+    {
         return answers[index];
     }
 
-    public int GetCorrectAnswerIndex() {
+    public int GetCorrectAnswerIndex()
+    {   Debug.Log(correctAnswerIndex);
         return correctAnswerIndex;
     }
 }
+
 
