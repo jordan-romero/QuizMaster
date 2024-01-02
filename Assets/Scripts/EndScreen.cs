@@ -9,7 +9,7 @@ public class EndScreen : MonoBehaviour
     [SerializeField] TextMeshProUGUI finalScoreText;
     ScoreKeeper scoreKeeper;
     // Update is called once per frame
-    void Update()
+    void Awake()
     {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }
